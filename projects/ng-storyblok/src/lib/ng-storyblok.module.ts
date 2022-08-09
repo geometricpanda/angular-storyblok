@@ -1,16 +1,7 @@
-import { NgModule } from '@angular/core';
-import { NgStoryblokComponent } from './ng-storyblok.component';
+import {NgModule} from '@angular/core';
+
+@NgModule({})
+export class NgStoryblokModule {
 
 
-
-@NgModule({
-  declarations: [
-    NgStoryblokComponent
-  ],
-  imports: [
-  ],
-  exports: [
-    NgStoryblokComponent
-  ]
-})
-export class NgStoryblokModule { }
+}
