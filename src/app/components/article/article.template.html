@@ -1,0 +1,8 @@
+<h1>{{blok.component}}</h1>
+
+<ng-container
+  *ngFor="let childBlok of blok['body']"
+  ng-storyblok
+  [story]="story"
+  [blok]="childBlok"
+></ng-container>

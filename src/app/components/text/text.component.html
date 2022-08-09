@@ -1,0 +1,5 @@
+<h2 *ngIf="blok.heading">{{blok.heading}}</h2>
+<h3 *ngIf="blok.subheading">{{blok.subheading}}</h3>
+<div *ngIf="blok.body"
+     [innerHTML]="blok.body | ngStoryblokRichText">
+</div>
